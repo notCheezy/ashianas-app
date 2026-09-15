@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Ashiana",
+    "slug": "ashiana-jewellery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ashiana",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-image",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

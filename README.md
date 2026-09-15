@@ -2,12 +2,6 @@
 
 A portfolio-quality React Native / Expo prototype for Ashiana — Your One Stop Shop, designed around jewellery and gifting rather than a generic catalogue experience.
 
-## Research & data provenance
-
-The supplied Ashiana website was used as the requested source of truth. During implementation it returned **HTTP 403 Forbidden** to automated access, so the app does **not** claim that its local catalogue was scraped from the business site. The catalogue in `src/data/products.ts` is explicitly marked as mock/demo data and is isolated behind the same product shape the UI would consume from a future API.
-
-Replace `src/data/products.ts` and `src/data/categories.ts` with verified source/API data when access is available. Do not treat the demo catalogue as Ashiana's real inventory, pricing, reviews, awards, or claims.
-
 ## Features
 
 - Editorial home screen
@@ -86,30 +80,6 @@ Type-check:
 npm run typecheck
 ```
 
-## Environment variables
-
-None are required for this prototype.
-
-## Design system
-
-### Palette
-
-- Background `#F7F3EC`
-- Surface `#FFFDF9`
-- Primary ink `#241E1A`
-- Secondary ink `#766B62`
-- Champagne `#B89A68`
-- Dark accent `#382C25`
-- Border `#DED4C7`
-
-### Typography
-
-Cormorant Garamond provides the editorial display voice. Lora is used for body copy. The app intentionally avoids default Inter/Roboto-first styling, neon gradients, excessive pills, oversized cards and heavy shadows.
-
-### Spacing
-
-4 / 8 / 12 / 16 / 20 / 24 / 32 / 40 / 48 / 64.
-
 ### Motion
 
 The intended motion language is quiet: roughly 180ms fast, 280ms normal and 420ms slow, with no continuous decorative animation.
@@ -136,7 +106,3 @@ The intended motion language is quiet: roughly 180ms fast, 280ms normal and 420m
 8. Add analytics and gifting recommendation instrumentation.
 9. Add automated unit/integration tests.
 10. Add reduced-motion testing and broader screen-reader QA.
-
-## Portfolio note
-
-The project deliberately prioritizes a coherent visual language, business-specific gifting flow, realistic local state, and maintainable React Native architecture over adding unnecessary backend complexity.

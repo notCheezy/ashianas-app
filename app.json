@@ -14,6 +14,15 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "19786473-960a-4fe0-9c5e-7176cc41f9c2"
+      }
+    },
+    "android": {
+      "package": "com.faisal.ashianajewellerystore"
     }
   }
 }

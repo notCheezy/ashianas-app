@@ -31,30 +31,6 @@ A portfolio-quality React Native / Expo prototype for Ashiana — Your One Stop 
 - AsyncStorage
 - Expo Image can be introduced for production image caching; the prototype uses React Native Image for simplicity
 
-## Architecture
-
-```text
-app/
-  (tabs)/          bottom navigation screens
-  category/        dynamic category route
-  product/         dynamic product route
-  cart.tsx
-  login.tsx
-  tracking.tsx
-  gifting.tsx
-  checkout.tsx
-src/
-  components/      reusable visual components
-  data/             products, categories, orders
-  store/            local cart, wishlist, auth and gift state
-  theme/            colors, spacing, typography, radii, motion
-  utils/            currency and search helpers
-```
-
-## Data
-
-The catalogue is **mock/demo data** because automated access to the supplied site returned HTTP 403. Product objects intentionally include `mock: true` and `stockStatus: 'Demo item'`. The data model is designed so local data can later be replaced by REST, Supabase, Shopify, or a custom backend without rewriting the UI.
-
 ## Running the project
 
 ```bash
